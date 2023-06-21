@@ -13,10 +13,12 @@ import PricingPage from "./component/PricingPage";
 import FAQ from "./component/FAQ";
 import GetStarted from "./component/GetStarted";
 import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 
 const HeroSection = () => {
   return (
     <div>
+      <Navbar/>
       <div className="sm:px-10 flex flex-col justify-center justify-self-center text-black text-center space-y-10  mx-auto max-w-6xl h-screen ">
         <h2 className="text-5xl text-center items-center ">
           Optimize Your Online Experience With Our Advanced{" "}
